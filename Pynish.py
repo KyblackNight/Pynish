@@ -146,7 +146,7 @@ else:
                                 print(Fore.YELLOW+"[100%]")
                                 os.system("clear")
                                 print(apres)
-                                os.system("git clone https://github.com/sqlmapprojec>
+                                os.system("git clone https://github.com/sqlmapprojec>")
                                 os.system("cd sqlmap")
                                 os.system("apt install python")
                                 os.system("python sqlmap.py")
