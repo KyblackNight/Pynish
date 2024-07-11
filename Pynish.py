@@ -159,6 +159,7 @@ else:
                                   os.system("clear")
                                   print(apres)
                                   os.system("git clone https://github.com/sqlmapproject/sqlmap.git")
+                                  print(Fore.GREEN+"Installation done successfully")
                                 
                                 else:
                                   print(Fore.YELLOW+"Invalid !")
