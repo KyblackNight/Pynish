@@ -91,7 +91,7 @@ else:
     print(apres)
     os.system("termux-setup-storage")
     os.system("pkg install wget -y")
-    os.system("wget -O install-nethunter-termux https://offs>
+    os.system("wget -O install-nethunter-termux https://offs>")
     os.system("chmod +x install-nethunter-termux")
     os.system("./install-nethunter-termux")
   else:
@@ -115,7 +115,7 @@ else:
                     os.system("clear")
                     print(apres)
                     os.system("sudo apt-get install perl")
-                    os.system("git clone https://github.com/GHubgenius/sl>
+                    os.system("git clone https://github.com/GHubgenius/sl>")
                     os.system("cd slowloris.pl")
                     os.system("perl slowloris.pl")
                     print(Fore.GREEN+"Installation done successfully")
