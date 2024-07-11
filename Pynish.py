@@ -130,8 +130,6 @@ else:
                     print(apres)
                     os.system("sudo apt-get install perl")
                     os.system("git clone https://github.com/GHubgenius/sl>")
-                    os.system("cd slowloris.pl")
-                    os.system("perl slowloris.pl")
                     print(Fore.GREEN+"Installation done successfully")
                   else:
                               
@@ -161,9 +159,7 @@ else:
                                   os.system("clear")
                                   print(apres)
                                   os.system("git clone https://github.com/sqlmapprojec>")
-                                  os.system("cd sqlmap")
-                                  os.system("apt install python")
-                                  os.system("python sqlmap.py")
+                                
                                 else:
                                   print(Fore.YELLOW+"Invalid !")
                                   
