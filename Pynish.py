@@ -158,7 +158,7 @@ else:
                                   print(Fore.YELLOW+"[100%]")
                                   os.system("clear")
                                   print(apres)
-                                  os.system("git clone https://github.com/sqlmapprojec>")
+                                  os.system("git clone https://github.com/sqlmapproject/sqlmap.git")
                                 
                                 else:
                                   print(Fore.YELLOW+"Invalid !")
