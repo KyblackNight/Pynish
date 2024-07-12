@@ -117,7 +117,7 @@ else:
                   exit()
                 else:
                   if option == "4":
-                    oi
+                    
                     time.sleep(1)
                     print(Fore.YELLOW+"[==2%]")
                     time.sleep(3)
