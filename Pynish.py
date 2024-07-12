@@ -128,7 +128,7 @@ else:
                     print(Fore.YELLOW+"[100%]")
                     os.system("clear")
                     print(apres)
-                    os.system("sudo apt-get install perl")
+                    os.system("sudo apt-get install perl -y")
                     os.system("git clone https://github.com/GHubgenius/sl>")
                     print(Fore.GREEN+"Installation done successfully")
                   else:
