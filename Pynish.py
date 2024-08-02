@@ -4,6 +4,7 @@ import os
 import time
 import colorama
 from colorama import Fore, Back, Style
+import webbrowser
 def pynish():
     os.system("clear")
     print("Loading...")
@@ -22,7 +23,7 @@ def pynish():
 
            Developer: Dev Morais
            Data: 9/Julho/2024
-           Version: 2.0
+           Version: 2.1
        """)
     print(apres)
     print(Fore.RED + """
@@ -34,6 +35,7 @@ def pynish():
     [6] - Sqlmap Install
     [7] - Metasploit Install
     [8] - Dirb Install
+    [9] - WebSite [Confiável]
     """)
     option = input("--> ")
 
@@ -134,6 +136,22 @@ def pynish():
       print(apres)
       os.system("pkg install dirb")
       print(Fore.GREEN+"Installation done successfully")
+    elif option == 9:
+        time.sleep(1)
+        print(Fore.YELLOW + "[==2%]")
+        time.sleep(3)
+        print(Fore.YELLOW + "[======25%]")
+        time.sleep(2)
+        print(Fore.YELLOW + "[===========60%]")
+        time.sleep(5)
+        print(Fore.YELLOW + "[100%]")
+        os.system("clear")
+        print("https://registrar-dados.netlify.app")
+        url = "https://registrar-dados.netlify.app"
+        webbrowser.open(url)
+        
+        
+        
       
 
 
@@ -153,6 +171,7 @@ def main():
       [6] - Sqlmap Install
       [7] - Metasploit Install
       [8] - Dirb Install
+      [9] - WebSite [Confiável]
       """)
       exit()
 
@@ -205,6 +224,20 @@ def main():
                       if args.a == 8:
                         os.system("pkg install dirb")
                         print(Fore.GREEN+"Installation done successfully")
+                      else:
+                          if args.a == 9:
+                              time.sleep(1)
+                              print(Fore.YELLOW + "[==2%]")
+                              time.sleep(3)
+                              print(Fore.YELLOW + "[======25%]")
+                              time.sleep(2)
+                              print(Fore.YELLOW + "[===========60%]")
+                              time.sleep(5)
+                              print(Fore.YELLOW + "[100%]")
+                              os.system("clear")
+                              print("https://registrar-dados.netlify.app")
+                              url = "https://registrar-dados.netlify.app"
+                              webbrowser.open(url)
                         
     else:
         pynish()
