@@ -226,15 +226,7 @@ def main():
                         print(Fore.GREEN+"Installation done successfully")
                       else:
                           if args.a == 9:
-                              time.sleep(1)
-                              print(Fore.YELLOW + "[==2%]")
-                              time.sleep(3)
-                              print(Fore.YELLOW + "[======25%]")
-                              time.sleep(2)
-                              print(Fore.YELLOW + "[===========60%]")
-                              time.sleep(5)
-                              print(Fore.YELLOW + "[100%]")
-                              os.system("clear")
+                              
                               print("https://registrar-dados.netlify.app")
                               url = "https://registrar-dados.netlify.app"
                               webbrowser.open(url)
